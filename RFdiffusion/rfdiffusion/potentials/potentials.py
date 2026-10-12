@@ -51,7 +51,8 @@ class monomer_ROG(Potential):
 
 class ca_constraints(Potential):
     """
-       Ca distance constraints to pull the prot towards a defined conformation.
+       Ca distance constraints to limit the movement of regions outside binding pocket or to pull the prot towards
+       desired conformation.
 
        author: Alisa Khramushin.
     """
